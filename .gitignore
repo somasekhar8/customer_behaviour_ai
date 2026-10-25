@@ -1,0 +1,52 @@
+
+# Environment Variables / API Keys
+.env
+.env.*
+!.env.example
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE Files
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Streamlit Secrets
+.streamlit/secrets.toml
+
+# Machine Learning Models
+*.pkl
+*.joblib
+*.h5
+
+# Dataset Files
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+
+# Logs and Temporary Files
+*.log
+*.tmp
+
+# Testing Cache
+.pytest_cache/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build Files
+dist/
+build/
+*.egg-info/
